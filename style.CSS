@@ -1,0 +1,285 @@
+@import url("./reset.css");
+
+.container{
+	margin-left: calc((100% - 1280px) / 2);
+	width: 1280px;
+	height: 1990px;
+}
+.header{
+	background-image: url(./img/flower.png);
+	height: 588px;
+}
+.top-header{
+	height: 89px;
+	width: 1280px;
+	background-color: white;
+	opacity: 0.9;
+	position: absolute;
+}
+.logo{
+	margin-top: 19px;
+	margin-left: 161px;
+	/*position: absolute;*/
+	width: 135px;
+	height: 55px;
+}
+.nav{
+	margin-left: 642px;
+	margin-top: -34px;
+}
+.nav li{
+		float: left;
+		margin-left: 35px;
+}
+.nav li:first-child{
+	margin-left: 0;
+}
+.nav a{
+	text-decoration: none;
+	color: grey;
+	font-size: 13pt;
+	font-family: Tahoma;
+}
+.nav-login a{
+	color: white;
+}
+.login{
+	width: 87px;
+	height: 26px;
+	background-color: #de6d6e;
+	border-radius: 5px;
+	margin-left: 35px;
+	padding: 2px 12px 2px 12px;
+}
+.login img{
+	margin-top: 2px;
+	padding-right: 7px;
+}
+.circle{
+	width: 160px;
+	height: 155px;
+	margin-left: 563px;
+	margin-top: 230px;
+	/*border: 1px solid black;*/
+	position: absolute;
+}
+.circle1{
+	width: 117px;
+	height: 117px;
+	background-color: white;
+	opacity: 0.6;
+	border-radius: 58px; 
+	position: absolute;
+	margin-top: 35px
+}
+.circle2{
+	background-color: #FFF;
+	opacity: 0.6;
+	border-radius: 47px;
+	position: absolute;
+	width: 93px;
+	height: 93px;
+	margin-left: 58px;
+}
+.circle3{
+	background-color: #FFF;
+	opacity: 0.6;
+	border-radius: 36px;
+	position: absolute;
+	margin-left: 88px;
+	width: 71px;
+	height: 71px;
+	margin-top: 52px;
+}
+.title{
+	width: 670px;
+	height: 110px;
+	margin-top: 410px;
+	margin-left: 305px;
+	position: absolute;
+}
+.title h1{
+	font-size: 49pt;
+	color: #ffffff;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+.title p{
+	color: #ffffff;
+	font-family: Tahoma;
+	font-size: 15pt;
+	margin-left: 20%;
+	margin-top: 19px;
+}
+.section2{
+	height: 470px;
+	border-bottom: 2px solid #f2f2f2;
+}
+.main1{
+	width: 845px;
+	height: 105px;
+	margin-top: 60px;
+	margin-left: 225px;
+	text-align: center;
+	color:#404040;
+}
+.main1 h2{
+	font-family: Tahoma;
+	font-size: 25pt;
+}
+.main1 p{
+	margin-top: 20px;
+	font-family: Tahoma;
+	font-size: 13pt;
+	line-height: 1.2; 
+}
+.ellipse{
+	width: 950px;
+	height: 185px;
+	margin-top: 70px;
+	margin-left: 160px;
+}
+.ellipse img{
+	margin-left: 50px;
+	margin-top: 45px;
+}
+.ellipse p{
+	margin-top: 5px;
+	margin-left: 65px;
+	font-family: Tahoma;
+	font-size: 12pt;
+	color: #ffffff;
+}
+.text{
+	width: 133px;
+	text-align: center;
+	font-size: 8pt;
+	font-family: Tahoma;
+	color: #ffffff;
+	position: absolute;
+	margin-top: -80px;
+	margin-left: -40px;
+}
+.blue{
+	width: 180px;
+	height: 180px;
+	background-color: #4eb9f4;
+	border-radius: 90px;
+	float: left;
+	margin-left: 2px;
+}
+.green{
+	width: 180px;
+	height: 180px;
+	background-color: #6fc125;
+	border-radius: 90px;
+	float: left;
+	margin-left: 77px;
+}
+.red{
+	width: 180px;
+	height: 180px;
+	background-color: #ff5649;
+	border-radius: 90px;
+	float: left;
+	margin-left: 68px;
+}
+.orange{
+	width: 180px;
+	height: 180px;
+	background-color: #e48f23;
+	border-radius: 90px;
+	float: left;
+	margin-left: 77px;
+}
+.news{
+	height: 675px;
+}
+.news-inner{
+	width: 960px;
+	height: 630px;
+	margin-left: 128px;
+	padding-top: 45px;
+	padding-left: 65px;
+	color:#404040;
+}
+.news-inner li img{
+	float: left;
+}
+.news-inner li{
+	margin-top: 79px;
+	overflow: hidden;
+}
+.news-inner li:first-child{
+	margin-top: 0;
+}
+.news-inner p{
+	font-family: Tahoma;
+	font-size: 11pt;
+	float: left;
+	margin-left: 225px;
+	margin-top: -80px;
+	line-height: 1.4;
+}
+.news-inner h3{
+	float: left;
+	margin-left: 25px;
+	font-size: 20pt;
+}
+.footer{
+	height: 258px;
+	background-color: #222428;
+	color: #aeaeae;
+}
+.type{
+	float: left;
+	margin-top: 35px;
+	font-family: Tahoma;
+	margin-left: 70px;
+}
+.type h3{
+	font-size: 16pt;
+}
+.type li{
+	font-size: 11pt;
+	line-height: 1.4;
+}
+.type:first-child{
+	margin-left: 190px;
+}
+.type a{
+	text-decoration: none;
+	color: #aeaeae;
+}
+.type li:first-child{
+margin-top: 25px;
+}
+.circle{
+	width: 280px;
+	height: 55px;
+	margin-top: 55px;
+	margin-left: 850px;
+}
+.cir{
+	width: 52px;
+	height: 52px;
+	border-radius: 25px;
+	background-color: #696b6a;
+	float: left;
+	margin-left: 20px;
+}
+.cir:first-child{
+	margin-left: 0;
+}
+.cir img{
+	margin-left: 9px;
+	margin-top: 9px;
+}
+.footer p{
+	font-family: Tahoma;
+	font-size: 11pt;
+	margin-top: 130px;
+	margin-left: 850px;
+	position: absolute;
+
+}
